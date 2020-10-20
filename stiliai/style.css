@@ -1,0 +1,59 @@
+.virsus {
+  background-color: #16b7db;
+  color: #ebe313;
+  font-family: "Comic Sans MS";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+aside {
+  background-color: #c5fcf8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+form {
+  background-color: #c5fcf8;
+  padding-bottom: 25px;
+  width: 80%;
+}
+
+form div {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+aside {
+  padding-right: 25px;
+  width: 20%;
+}
+
+aside ul li {
+  list-style-type: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+aside ul li a {
+  text-decoration: none;
+}
+
+.turinys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+/*# sourceMappingURL=style.css.map */

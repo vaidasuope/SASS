@@ -1,0 +1,52 @@
+$fono-spalva: #16b7db;
+$sriftas: "Comic Sans MS";
+$teksto-spalva: #ebe313;
+$fono-spalva2: #c5fcf8;
+
+@mixin centravimas {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+@mixin centravimas2 {
+  display: flex;
+  gap: 5px;
+}
+
+.virsus {
+  background-color: $fono-spalva;
+  color: $teksto-spalva;
+  font-family: $sriftas;
+  @include centravimas();
+}
+aside {
+  background-color: $fono-spalva2;
+  @include centravimas();
+}
+form {
+  background-color: $fono-spalva2;
+  padding-bottom: 25px;
+  width: 80%;
+  div {
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+}
+aside {
+  padding-right: 25px;
+  width: 20%;
+  ul {
+    li {
+      list-style-type: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+.turinys {
+  @include centravimas2();
+}
